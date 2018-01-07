@@ -235,5 +235,9 @@ public class CarParts {
             this.carPart20 = carPart20;
             return this;
         }
+
+        public CarParts build(){
+            return new CarParts(carPart1,carPart2,carPart3,carPart4,carPart5,carPart6,carPart7,carPart8,carPart9,carPart10,carPart11,carPart12,carPart13,carPart14,carPart15,carPart16,carPart17,carPart18,carPart19,carPart20);
+        }
     }
 }
